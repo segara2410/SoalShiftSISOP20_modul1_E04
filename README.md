@@ -137,7 +137,10 @@ wget -O pdkt_kusuma_$i https://loremflickr.com/320/240/cat --append-output wget.
 - `grep -Eo '[0-9]+'` mengambil angka dari nama file
 - `sort -rn` reverse sort
 - ``i=`expr $i + 1`` increment index
-- `wget -O pdkt_kusuma_$i https://loremflickr.com/320/240/cat --append-output wget.log >> wget.log` melakukan download dengan penamaan sesuai indeks dan membuat log
+- `for ((j = $i ; j < $i+28 ; j++));
+  do
+    wget -O pdkt_kusuma_$j https://loremflickr.com/320/240/cat --append-output wget.log >> wget.log
+  done` melakukan download gambar sebanyak 28 kali dengan penamaan sesuai indeks dan membuat log
 
 (b) Solusi:
 
