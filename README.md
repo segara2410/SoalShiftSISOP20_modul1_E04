@@ -6,6 +6,7 @@ Kelompok E 04
 
 ## 1. Mengolah Data dari "Sample-Superstore.tsv"
 >Source code file: [Soal1](https://github.com/segara2410/SoalShiftSISOP20_modul1_E04/tree/master/soal1)
+>![Hasil bash](ss_soal1.png)
 
 Soal 1 diselesaikan menggunakan AWK
 
@@ -88,6 +89,8 @@ echo "Produk dengan profit minimum : "$c
 
 ## 2. Caesar Cipher
 >Source code file: [Soal2](https://github.com/segara2410/SoalShiftSISOP20_modul1_E04/tree/master/soal2)
+>![Hasil bash](ss_soal2.1.png)
+>![Hasil bash](ss_soal2.2.png)
 
 ```
 cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 28 | head -n 1 > `echo $1 | tr -dc 'a-zA-Z'`.txt
@@ -125,6 +128,7 @@ cp $1 $new_name".txt"
 
 ## 3. PDKT Kusuma
 >source code file: [Soal3](https://github.com/segara2410/SoalShiftSISOP20_modul1_E04/tree/master/soal3)
+>![Hasil bash](ss_soal3.png)
 
 (a) Solusi:
 
